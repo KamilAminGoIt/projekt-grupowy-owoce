@@ -185,6 +185,7 @@
   .contacts__text {
     width: 391px;
     margin: 0px 104px 80px 105px;
+    padding: 0;
   }
   .contacts__raspberry {
     background-color: transparent;
@@ -247,8 +248,19 @@
     text-align: center;
     color: var(--clr-white);
   }
+  .contacts__modal {
+    width: 600px;
+  }
+  .contacts__h3 {
+    font-size: 40px;
+    line-height: 110%;
+  }
   .contacts__form {
     text-align: center;
+  }
+  .contacts__raspberry {
+    width: 278px;
+    height: 239px;
   }
   .contacts__label {
     position: relative;
@@ -295,6 +307,14 @@
     letter-spacing: -0.04em;
     color: var(--clr-white);
     margin-top: 80px;
+  }
+  .contacts__raspberry {
+    margin: 68px 161px 28px 161px;
+  }
+  .contacts__text {
+    width: 391px;
+    margin: 0px 104px 80px 105px;
+    padding: 0;
   }
 }
 .is-open {
